@@ -220,3 +220,65 @@ body{
 	border: 1px solid #2AF209;
 	overflow: auto;
 }
+/*_________________________________________________*/
+
+/* ALINHAMENTO VERTICAL */
+
+.card{
+	position: relative;                /*position relative para centralizar o item interno*/
+	float: left;
+	width: 400px;
+	height: 200px;
+	border: 1px solid #D00CC4;
+	text-align: center;
+	background-color: #95407E;
+}
+
+.card2{	
+	clear: left;
+	float: left;
+	padding-left: 41px;
+	padding-right: 41px;
+	padding-bottom:100px;
+	padding-top: 100px;
+	border: 1px solid #D00CC4;
+	background-color: #95407A;	
+}
+
+
+/*.card3{	
+	display: inline-block;  Quando o objeto nao depende de outro para alinhamento, por exemplo, nesse caso era necessario alinhar com card1 e card2, mas nao foi possivel
+	padding-left: 41px;
+	padding-right: 41px;
+	padding-bottom:100px;
+	padding-top: 100px;
+	border: 1px solid #D00CC4;
+	background-color: #95407A;	
+}*/
+
+
+.c1{
+	background-color: #A3568B;
+	line-height: 200px;
+	color: white;
+	font-weight: bold;
+}
+
+.c2{
+
+	color: white;
+	font-weight: bold;
+	background-color: #95407E;
+	top: 50%;  /*alinha de acordo com o pai*/
+	left: 50%;  /*alinha de acordo com o pai*/
+	position: absolute;  /*alinha de acordo com o proprio objeto*/
+	transform: translate(-50%,-50%); /*alinha de acordo com o proprio objeto*/
+
+}
+
+
+.c3{
+	color: white;
+	font-weight: bold;
+
+}
