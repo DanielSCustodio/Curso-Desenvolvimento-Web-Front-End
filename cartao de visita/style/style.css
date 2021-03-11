@@ -1,0 +1,15 @@
+.img{
+	width: 400px;
+	height: 200px;
+
+}
+
+ul{
+	float: left;
+}
+
+body{
+	background: url(img/background.png);
+}
+
+

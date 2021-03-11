@@ -1,0 +1,124 @@
+a{
+	text-decoration: none;
+	border: solid 2px #3740FF;
+	border-radius: 5px;
+	padding: 5px;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	margin: 10px;
+	font-size: 10px;
+}
+
+a:visited{
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover{
+	text-decoration: none;
+	border: solid 2px #3740FF;
+	color: #FFFFFF;
+	background: blue;
+	border-radius: 5px;
+	padding: 5px;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	margin: 10px;
+}
+
+
+
+
+/*_________________________________________________*/
+
+/* MATERIAL DE ESTUDO */
+
+.block{
+	background: red;
+	width: 50%;   /* Aceita largura e altura especifica e a cada block a linha eh quebrada*/
+	height: 45px; /* Nao pode usar elemento tipo block dentro do paragrafo e nem paragrafo dentro de paragrafo*/
+}
+
+.inline{
+	background: gray;
+	width: 50%;		/* Nao aceita largura e altura especifica e fica na mesma linha*/
+	height: 45px;
+} 
+
+.inline-block{
+	display: inline-block; /*Inline-block permite alterar altura e largura e mantem na mesma linha */
+	background: green;
+	width: 60%;		
+	height: 45px;
+} 
+
+.display-none{
+	display: none;
+}
+
+.pai-block{
+	background-color: blue;
+}
+
+.paiParagrafo{
+	background-color: blue;
+}
+.div{
+	background-color: red;
+}
+
+.img{
+	visibility: hidden; /* Esconde o objeto mas as suas prporcoes continuam na tela com um espaco em branco*/
+}
+
+
+/*_________________________________________________*/
+
+/* OVERFLOW */
+
+.container-overflow{
+	color: orange;
+	background: blue;
+	width:300px;
+	height: 100px;
+	overflow-x: hidden;
+	overflow: hidden; /*esonde parte do conteudo fora do objeto*/
+	overflow: scroll; /*coloca um scrol com barra lateral*/
+	overflow: auto; /*coloca um scrol com barra lateral so se necessario*/
+}
+
+/*_________________________________________________*/
+
+/* ALINHAHMENTO HORIZONTAL */
+
+#quadrado{
+	width:  250px;
+	height:  250px;
+	background-color: #F8490C;
+	margin-right:  auto;/*Centraliza o objeto horizontalmente junto com margin-left */
+	margin-left: auto;/*Centraliza o objeto horizontalmente unto com margin-right */
+	margin: auto; /*Centraliza o objeto horizontalmente */
+
+}
+
+#img-horizontal{
+	display:block; /*passo 1 para centraliza a imagem*/
+	margin: auto; /*passo 2 para centralizar a imagem*/
+	text-align: center;
+	padding:  15px;
+	padding-top: 5px;
+}
+
+.text{
+	text-align: center;
+	margin: 15px;
+}
+
+.img-horizontal2{
+	text-align: center;/*a imagem tem que ta dentro de uma div*/
+
+
+
+/*_________________________________________________*/
+
+/* POSITION */
