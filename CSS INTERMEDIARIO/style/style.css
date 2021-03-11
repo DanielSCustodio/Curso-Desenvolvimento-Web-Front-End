@@ -200,3 +200,23 @@ body{
 	position: sticky;
 	top:  0;
 }
+
+/*_________________________________________________*/
+
+/* FLOAT */
+
+.img-float{
+	float: left;    /*a imagem se posiciona em relacao ao proximo elemento*/
+	margin-right: 5px;
+}
+
+.text-float{
+	font-size: 18px;
+	color: #E7E4E4;
+	/*clear: left;     /*anula o float do elemento anterior - both anula o left e right*/
+
+}
+.pai-float{
+	border: 1px solid #2AF209;
+	overflow: auto;
+}
