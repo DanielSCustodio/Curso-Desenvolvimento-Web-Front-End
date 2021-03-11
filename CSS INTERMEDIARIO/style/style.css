@@ -7,6 +7,7 @@ a{
 	padding-bottom:  5px;
 	margin: 10px;
 	font-size: 10px;
+
 }
 
 a:visited{
@@ -24,6 +25,10 @@ a:hover{
 	padding-top: 5px;
 	padding-bottom:  5px;
 	margin: 10px;
+}
+
+.menu{
+	padding-bottom:  20px;
 }
 
 
@@ -116,9 +121,21 @@ a:hover{
 
 .img-horizontal2{
 	text-align: center;/*a imagem tem que ta dentro de uma div*/
-
+}
 
 
 /*_________________________________________________*/
 
 /* POSITION */
+
+.square{
+	width: 250px;
+	height:  250px;
+}
+.blue{
+	background: #30BBE3;
+}
+
+.red{
+	background-color: #DD3232;
+}
