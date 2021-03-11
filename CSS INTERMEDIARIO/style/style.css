@@ -1,25 +1,26 @@
 a{
 	text-decoration: none;
-	border: solid 2px #3740FF;
+	border: solid 2px #01DF11;
 	border-radius: 5px;
 	padding: 5px;
 	padding-top: 5px;
 	padding-bottom:  5px;
 	margin: 10px;
 	font-size: 10px;
+	color: #FFFFFF;
 
 }
 
 a:visited{
 	text-decoration: none;
-	color: blue;
+	color: #FFFFFF;
 }
 
 a:hover{
 	text-decoration: none;
-	border: solid 2px #3740FF;
-	color: #FFFFFF;
-	background: blue;
+	border: solid 2px #01DF11;
+	color: #2E2A2A;
+	background: #01DF09;
 	border-radius: 5px;
 	padding: 5px;
 	padding-top: 5px;
@@ -29,6 +30,11 @@ a:hover{
 
 .menu{
 	padding-bottom:  20px;
+	
+}
+
+body{
+	background: #2E2A2A;
 }
 
 
@@ -127,15 +133,70 @@ a:hover{
 /*_________________________________________________*/
 
 /* POSITION */
-
-.square{
-	width: 250px;
-	height:  250px;
+.barra{
+	width: 200px;
+	height: 1000px;
+	background-color: #860172;
+	overflow: auto;
 }
-.blue{
+
+.square-pink{
+	width: 100px;
+	height: 100px;
+	background: #E35A8E;
+	margin-top:  10px;
+}
+
+
+.square-brown{
+	width: 100px;
+	height: 100px;
+	background: #5F2E2E;
+	margin-top:  10px;
+}
+.square{
+	width: 150px;
+	height:  150px;
+}
+.bg-blue{
 	background: #30BBE3;
 }
 
-.red{
+.bg-red{
 	background-color: #DD3232;
+}
+
+.bg-green{
+	background-color: #74CE38;
+}
+
+.bg-orange{
+	background-color: #E0491B;
+}
+
+.relative{
+	position: relative;   /* Pode receber left right top botton - Se posiciona a partir da sua posicao inicial*/
+	top: 30%;
+	left: 50%;
+}
+
+.static{
+	position: static;
+	left: 50px; /*Nao aceita*/
+}
+
+.fixed{
+	position: fixed; /*Posicao em relacao a janela. Diferente do relative  o objeto fica fixo na tela independente do scroll*/
+	left: 250px;
+}
+
+.absolute{
+	position: absolute; /* Pode receber left right top botton- Se posiciona a partir tag pai ou ao body caso nao tenha pai(nao pode ser static)*/
+	top: 30%;
+	left: 50%;
+}
+
+.sticky{              /*Limita o objeto a uma certa posicao em relacao ao pai*/
+	position: sticky;
+	top:  0;
 }
