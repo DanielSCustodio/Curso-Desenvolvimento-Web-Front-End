@@ -1,0 +1,52 @@
+body{
+	background: #2E2A2A;
+}
+
+.display-menu{
+	margin: 15px;
+
+}
+.container-menu{
+	overflow: hidden;
+	width: 80%;
+	padding: 15px;
+	background-color: #131212;
+	margin: auto;
+	border: 1px solid #27CE0B;
+}
+
+.menu{
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+
+li{
+	float: left;          /* coloca os itens lado a lado */
+	margin-left: 15px;
+
+}
+
+.logo-menu{
+	float: left;
+	color: #D3D3D3;
+	font-weight: 700;
+
+}
+
+a{
+	text-decoration: none;
+	color: #19F924;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #19F924;
+}
+
+a:hover{
+	color: white;
+
+}
