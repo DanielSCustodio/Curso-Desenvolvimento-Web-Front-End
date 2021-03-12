@@ -371,3 +371,58 @@ body{
 	width:  50vmax;
 	background-color: #1E73C3;
 }
+
+
+/*_________________________________________________*/
+
+/* Media Queries */
+
+
+.header-querie{
+	overflow: hidden;
+	margin: auto;
+	width: 80%;
+	background-color: #0E0D0D;
+	padding: 15px;
+	font-size: 18px;
+	
+}
+
+.menu-querie{
+	list-style: none;
+	margin: 0;
+	padding: 0; /* listas tem padding e margin automaticos*/
+	float: right;
+}
+
+li{
+	float: left;
+	color: white;
+	margin-left: 15px;
+}
+
+.logo{
+	float: left;
+	color: white;
+	color: #0DDC0D;
+}
+
+
+@media screen and (max-width: 556px){
+	.logo{
+		float: none;
+		text-align: center;
+	}
+	.menu-querie{
+		margin-top: 20px;
+		float: none;
+		text-align: center;
+	}
+	li{
+		float: none;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+
+
+}
