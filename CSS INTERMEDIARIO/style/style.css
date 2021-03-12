@@ -325,8 +325,7 @@ body{
 	width: 50%;
 	height: 100px;
 	background-color: #525653;
-
-
+	bottom:  50%;
 
 }
 
@@ -340,4 +339,35 @@ body{
 	top:50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.medida{
+	background: #D37A7A;
+	height: 3cm;
+	width: 3mm;
+}
+
+.medida2{
+	
+	font-size: 25px;
+	
+}
+
+
+.medida3{
+
+	font-size: 2em;
+	width: 2em;
+}
+
+.medida4{
+	width: 200px;
+	height: 100px;
+	background-color: #118478;
+}
+
+
+.medida5{
+	width:  50vmax;
+	background-color: #1E73C3;
 }
