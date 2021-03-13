@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+
 body{
 	background: linear-gradient(-90deg, #77037E, #FF10A2, #FFF47C);
 	
@@ -19,4 +24,8 @@ header{
 .title{
 	
 	font-size: 26px;
+}
+
+section{
+	color: white;
 }
