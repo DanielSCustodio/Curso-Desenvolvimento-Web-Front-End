@@ -1,0 +1,22 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(-90deg, #77037E, #FF10A2, #FFF47C);
+	
+}
+header{
+	text-align: center;
+	color: #574E4E;
+	padding: 10px;
+	background: #FFFFFF;
+	opacity: 0.7;
+}
+
+.title{
+	
+	font-size: 26px;
+}
