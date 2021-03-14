@@ -15,10 +15,10 @@ body{
 }
 header{
 	text-align: center;
-	color: #574E4E;
+	color: #FFFFFF;
 	padding: 10px;
-	background: #FFFFFF;
-	opacity: 0.7;
+	background: #000000BB;
+	
 }
 
 .title{
@@ -27,5 +27,52 @@ header{
 }
 
 section{
+	padding: 20px;
+	background-image: url('../img/family.jpg');
+	background-size: cover;/*Background no tamanho do obejto*/
+	overflow: hidden;/*Mostra a imagem toda, o que nao acontecia antes por causa do float*/
+}
+
+.formContainer{
+	max-width: 230px;
+	background: #FFFFFFBB;
+	padding: 20px;
+	float: right;
+}
+
+h2{
+	font-size: 16px;
+}
+
+.mb{
+	margin-bottom: 15px;
+}
+
+input,select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border:none;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 15px;
+}
+
+input[type="submit"]{
 	color: white;
+	background: #700680;
+	font-weight: bold;
+}
+select{
+	appearance: none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+
+	background-image: url('../img/arrow.jpg');
+	background-repeat: no-repeat;
+	
+	background-position-x: calc(100% - 10px);
+	background-position-y: center;
 }
