@@ -72,7 +72,46 @@ select{
 
 	background-image: url('../img/arrow.jpg');
 	background-repeat: no-repeat;
-	
+
 	background-position-x: calc(100% - 10px);
 	background-position-y: center;
+}
+
+
+footer{
+	background: #000000;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.picture{
+	width: 200px;
+}
+
+.description{
+	color: #D5D9D1;
+	display: inline-block;
+	max-width: 40%;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.description p, .description h3{
+	margin-bottom: 20px;
+}
+
+.description h3{
+	font-size: 24px;
+}
+
+@media screen and (max-width: 556px){
+	
+
+	.formContainer{
+		margin-right: 25%;
+		
+
+	}
+
+
 }
