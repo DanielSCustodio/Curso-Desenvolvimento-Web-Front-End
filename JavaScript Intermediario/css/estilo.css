@@ -70,3 +70,12 @@ a:hover{
 span{
 	display: none;
 }
+
+.botao{
+	font-size: 20px;
+	display:inline-block;
+	background-color: cadetblue;
+	color: cornsilk;
+	padding: 20px;
+	display:
+}
