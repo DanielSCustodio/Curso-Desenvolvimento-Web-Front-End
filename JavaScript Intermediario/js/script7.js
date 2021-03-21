@@ -11,6 +11,7 @@ function hideH1(){
     h1.style.display ="none";
   }else{
     h1.style.display ="block";
+    h1.style.color ="green"
   }
 }
 
