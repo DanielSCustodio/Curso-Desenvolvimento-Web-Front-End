@@ -7,7 +7,7 @@ function loaded(){
     }
 
     let get = document.getElementById("titulo2");
-    get.addEventListener("click", newTxt)
+    get.addEventListener("mouseover", newTxt)
     get.addEventListener("mouseout", mouseout)
 
 }  function newTxt(){
