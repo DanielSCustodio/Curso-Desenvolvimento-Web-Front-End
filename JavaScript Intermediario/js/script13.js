@@ -9,15 +9,15 @@ window.onload = function () {
     // let d2 = document.getElementById("d2")
 
 
-    let title = document.getElementsByTagName("h1")
+  let title = document.getElementsByTagName("h1")
   for (let i of title) {
       console.log(i);
 
       i.addEventListener("click",qop)
   }
 
-  function qop(e) {               //capturando o evento
+  function qop(e) {             //capturando o evento
         let t = e.target;         //atraves do evento capturando o elemento
         console.log(t.parentElement); // pegando a tag pai do elemento
   }
-}
+ }
