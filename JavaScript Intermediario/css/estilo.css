@@ -61,10 +61,8 @@ a:hover{
 }
 
 .titulo{
-	color: gainsboro;
+	color: rgb(106, 149, 241);
 	text-align: center;
-	
-	
 }
 
 span{
@@ -72,10 +70,21 @@ span{
 }
 
 .botao{
+	width: 200px;
 	font-size: 20px;
 	display:inline-block;
-	background-color: cadetblue;
-	color: cornsilk;
+	background-color: rgb(66, 209, 86);
+	color: black;
 	padding: 20px;
-	display:
 }
+
+.botao2{
+	width: 200px;
+	font-size: 20px;
+	display:inline-block;
+	background-color: rgb(221, 43, 43);
+	color: black;
+	padding: 20px;
+	text-align: center;
+	
+} 
