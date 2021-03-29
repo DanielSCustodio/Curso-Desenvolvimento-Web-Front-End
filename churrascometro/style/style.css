@@ -12,7 +12,7 @@
 	border: 3px solid #F96E03;
 }
 
-h1{
+ h3,h1{
 	border: 0;
 	text-align: center;
 	color: #F96E03;
@@ -31,9 +31,19 @@ input{
 
 button{
 	
-	padding: 20px;
+	padding: 10px;
 	border-radius: 5px;
 	background: #F96E03;
 	color: #FFFFFF;
 	font-weight: bold;
+}
+
+#resultado{
+	
+	width: 100%;
+	border-radius: 10px;
+}
+
+h3{
+	color: white;
 }

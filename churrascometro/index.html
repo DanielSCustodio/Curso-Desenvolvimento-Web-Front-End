@@ -11,15 +11,17 @@
 </head>
 <body>
  <div class="container">
-    <h1>Churrascômetro</h1>
+    <h1 class="title">Churrascômetro</h1>
     <input type="number" id="adulto" name="adulto" placeholder="Adultos">
     <input type="number" id="crianca" name="crianca" placeholder="Crianças">
     <input type="number" id="duracao" name="duracao" placeholder="Duração(h)">
-    <button>Calcular</button>
+    <button onclick="calcular()" >Calcular</button>
+
+    <div id="resultado">
+    </div>
 </div>
 
-<div id="resultado">
-</div>
+
 <script src='js/script.js'></script>
 </body>
 </html>
