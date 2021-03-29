@@ -1,0 +1,39 @@
+/*#F96E03*/
+
+/* Backgroungd#562671*/
+.container{
+	width: 300px;
+	margin: auto;
+	background: #562671;
+	padding: 40px;
+	border-radius: 20px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;  /*para centralizar o buttom, pois ele nao aceita margin auto*/
+	border: 3px solid #F96E03;
+}
+
+h1{
+	border: 0;
+	text-align: center;
+	color: #F96E03;
+}
+
+input{
+	width: 100%;
+	display: block;  /*ocupa a linha toda*/
+	padding: 5px;
+	box-sizing: border-box; /*As propriedades de largura (width) e de altura (height) 
+							incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin.*/
+	margin-bottom: 10px;
+	border-radius: 50px;
+	color: #4A4949;
+}
+
+button{
+	
+	padding: 20px;
+	border-radius: 5px;
+	background: #F96E03;
+	color: #FFFFFF;
+	font-weight: bold;
+}
