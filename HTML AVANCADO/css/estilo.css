@@ -57,3 +57,33 @@ a:hover{
 .title{
 	text-align: center;
 }
+
+.container-video{
+	position: relative;
+	text-align: center;
+	 width:640px; 
+	 height: 360px;
+	
+}
+
+.video{
+	width: 100%;
+}
+
+.controls{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;/*centralizando o btnControl(filho) pois eh imagem */
+} 
+
+
+.btnControl{
+	position: relative;
+	top:100%;
+	transform: translateY(-100%);/*centralizando com a altura*/
+	width: 25px;
+	padding: 15px; 
+	padding-bottom: 5px;
+}
