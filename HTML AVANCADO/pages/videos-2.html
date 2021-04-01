@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+<body>
+	<div class="display-menu"><!--display-menu--> 
+				<div class="container-menu"><!--container-menu-->  
+
+					<ul class="menu"><!--menu-->
+							<li><a href="../index.html">Voltar</a></li>
+					</ul><!--menu-->
+
+						<div class="logo-menu"><!--logo-menu-->
+							Aulas
+						</div><!--logo-menu-->
+
+		    	</div><!--container-menu-->
+	</div><!--display-menu-->
+
+    <div class="container-video" >
+        <video  onmouseover="show()" onmouseout="hide()" id="video" class="video" src="../video/dml.mp4" poster="../img/logo.jpg"></video> 
+
+        <div class="controls" id="controls">
+            <img class="btnControl" onclick="menos_velocidade()" src="../player_controls/button-remove.png">
+            <img class="btnControl" onclick="retroceder()" src="../player_controls/button-rewind.png">
+            <img class="btnControl" onclick="play()" src="../player_controls/button-play.png">
+            <img class="btnControl" onclick="stop()" src="../player_controls/button-stop.png">
+            <img class="btnControl" onclick="avancar()" src="../player_controls/button-forward.png">
+            <img class="btnControl" onclick="mais_velocidade()" src="../player_controls/button-add.png">
+        </div>
+    </div>    
+        <script src="../js/script3.js"></script>    
+	<script src="../js/script3.js"></script>
+</body>
+</html>
